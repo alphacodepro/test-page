@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <title>Fancy Animated Page</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./style.css">
   <style>
     body {
       margin: 0;
@@ -90,33 +89,7 @@
     <button onclick="alert('You clicked me! 🎉')">Click Me</button>
   </div>
 
-  <!-- Chatbot Widget -->
-  <div id="chat-container">
-    <div id="chat-header">
-      <div class="bot-info">
-        <div class="bot-name">Luna Assistant</div>
-        <div class="bot-status">Online • Here to help</div>
-      </div>
-      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
-    </div>
-    <div id="breadcrumb" class="breadcrumb">Main Menu</div>
-    <div id="messages"></div>
-    <div id="typing-indicator" class="typing" style="display:none">
-      <span class="typing-text">Luna is typing</span>
-      <span class="dot"></span><span class="dot"></span><span class="dot"></span>
-    </div>
-    <div class="input-area">
-      <button id="attachment" class="attachment-btn" aria-label="Attach file">📎</button>
-      <textarea id="input" placeholder="Type your message..." autocomplete="off" rows="1"></textarea>
-      <button id="send" aria-label="Send">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <line x1="22" y1="2" x2="11" y2="13"></line>
-          <polygon points="22,2 15,22 11,13 2,9"></polygon>
-        </svg>
-      </button>
-    </div>
-  </div>
-
-  <script src="./app.js"></script>
+  <!-- Chatbot Widget Integration -->
+  <script src="https://chatbot-widget-ui.pages.dev/bootstrap.js"></script>
 </body>
 </html>
